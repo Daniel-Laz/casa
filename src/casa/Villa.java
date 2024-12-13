@@ -22,7 +22,7 @@ public class Villa extends Casa{
         if (piscina){
             p=20000;
         }
-        if (super.getNStanze()>=0){
+        if (super.getNStanze()>=10){
             s = 10000;
         }
         return (super.getSuperficie()*2000)+p+s;
